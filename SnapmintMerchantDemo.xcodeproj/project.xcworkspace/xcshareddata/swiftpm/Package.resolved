@@ -1,0 +1,15 @@
+{
+  "originHash" : "5cf8a567020e14e5bf2664cc3f47b02391136cf95fa34b2f4b6052f84c6340f9",
+  "pins" : [
+    {
+      "identity" : "snapmint_merchant_ios_sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/snapmint/snapmint_merchant_ios_sdk.git",
+      "state" : {
+        "revision" : "010b5cf1ec4c12771564cdd3a4fb34c595a64c11",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
