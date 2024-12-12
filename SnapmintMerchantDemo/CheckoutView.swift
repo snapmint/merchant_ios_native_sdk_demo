@@ -11,9 +11,9 @@ import SnapmintMerchantSdk
 struct CheckoutView: View {
     @State private var result: SnapmintOrderResult? = nil
     
-    @State private var baseUrl: String = "https://qaapi.snapmint.com/v1/public/s2s_online_checkout"
-    @State private var mobile: String = "7823478000"
-//    @State private var mobile: String = "9910008259"
+    //add checkout url here
+    @State private var baseUrl: String = ""
+    @State private var mobile: String = "9012345678"
     @State private var merchantId: String = "351"
     @State private var merchantKey: String = "CqBnaVCm"
     @State private var merchantToken: String = "C84NNfuS"

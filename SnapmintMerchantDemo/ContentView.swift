@@ -9,8 +9,8 @@ import SwiftUI
 import SnapmintMerchantSdk
 
 struct ContentView: View {
-    let merchant = "4858/snap_titan.json"
-    //    let merchant = "2435/snap_nnow.json"
+    //add merchant link here
+    let merchant = ""
     @State private var orderValue: Double = 1571.0
     @State private var inputOrderValue: String = "1571"
     
