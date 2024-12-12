@@ -9,7 +9,7 @@ import SwiftUI
 import SnapmintMerchantSdk
 
 struct ContentView: View {
-    let merchant = "1616/snap_ketch.json"
+    let merchant = "4858/snap_titan.json"
     //    let merchant = "2435/snap_nnow.json"
     @State private var orderValue: Double = 1571.0
     @State private var inputOrderValue: String = "1571"
@@ -35,7 +35,10 @@ struct ContentView: View {
                         .background(Color.blue)
                         .cornerRadius(8)
                 }
-                SnapmintEmiInfoView(orderValue: orderValue, merchantLink: merchant, isEnable: true,environment: SnapmintEnvironment.qa)
+//                SnapmintEmiInfoView(orderValue: orderValue, merchantLink: merchant, isEnable: true,environment: SnapmintEnvironment.qa)
+//                    .id(orderValue)
+                SnapmintEmiInfoViewNew(orderValue: orderValue, merchantLink: merchant, isEnable: true)
+                    .id(orderValue)
                 Spacer()
 
                 NavigationLink(destination: CheckoutView()) {
