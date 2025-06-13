@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/snapmint/snapmint_merchant_ios_sdk.git",
       "state" : {
-        "revision" : "1100bfa83e42dab1ec2ae8fab1484f97c352c92b",
-        "version" : "1.0.2"
+        "revision" : "1fc57cc77149684fc5331cec96bc20d0126d8d31",
+        "version" : "1.0.6"
       }
     }
   ],
