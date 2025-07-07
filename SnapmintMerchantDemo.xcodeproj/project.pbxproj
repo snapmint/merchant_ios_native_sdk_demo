@@ -24,7 +24,6 @@
 		2F91B8D72BADC0F0004BD68D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F91B8DA2BADC0F0004BD68D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F91B8E12BADC1BF004BD68D /* CheckoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		2FA5E7E12D194579008BD933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2FD645C42DFC082D002230A3 /* CheckoutResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutResponseModel.swift; sourceTree = "<group>"; };
 		2FD645C62DFC0868002230A3 /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +69,6 @@
 			children = (
 				2FD645C62DFC0868002230A3 /* CheckoutViewModel.swift */,
 				2FD645C42DFC082D002230A3 /* CheckoutResponseModel.swift */,
-				2FA5E7E12D194579008BD933 /* Info.plist */,
 				2F91B8E12BADC1BF004BD68D /* CheckoutView.swift */,
 				2F91B8D32BADC0EE004BD68D /* SnapmintMerchantDemoApp.swift */,
 				2F91B8D52BADC0EE004BD68D /* ContentView.swift */,
@@ -307,6 +305,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SnapmintMerchantDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,6 +339,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SnapmintMerchantDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
